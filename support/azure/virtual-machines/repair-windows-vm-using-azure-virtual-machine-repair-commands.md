@@ -25,7 +25,7 @@ If your Windows virtual machine (VM) in Azure encounters a boot or disk error, y
 > * The scripts in this article only apply to the VMs that use [Azure Resource Manager](/azure/azure-resource-manager/management/overview).
 > * Outbound connectivity from the VM (port 443) is required for the script to run.
 > * Only one script may run at a time.
-> * A running script cannot be canceled.
+> * A running script cannot be cancelled.
 > * The maximum time a script can run is 90 minutes, after which it will time out.
 > * Do not modify the tags that are created on the repair VM. The tags are neccessary for the restore command to function correctly.
 > * For VMs using Azure Disk Encryption, only managed disks encrypted with single pass encryption (with or without KEK) are supported.
